@@ -8,7 +8,7 @@ public class ScriptSearcher : EditorWindow
     private List<string> searchResults = new List<string>();
     private int selectedIndex = -1; // -1 indicates no selection
 
-    [MenuItem("Window/ScriptSearcher")]
+    [MenuItem("Tools/Taqi/Find Script On Object")]
     public static void ShowWindow()
     {
         GetWindow<ScriptSearcher>("Script Searcher");
